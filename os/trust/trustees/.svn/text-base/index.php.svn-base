@@ -1,0 +1,61 @@
+<?php include("../../../header.inc"); ?>
+
+<div class="contentStory" style="padding-top: 15px">
+<h2>Bay Area Vipassana Trust</h2>
+
+<h3><u>Board of Directors</u></h3>
+<a href="http://www.dhamma.org/goenka.htm">S. N. Goenka</a><br />
+Tim and Karen Donovan - Area Teachers
+
+<h3><u>Current Trust Members</u></h3>
+<h5>Executive Trust Officers</h5>
+Presidents: Nirmalla Pailla & Sudhakar Reddy<br />
+Secretary: Brooke Wright<br />
+Treasurer: Jeffrey Hancuff<br />
+<br />
+<h5>Trust Members</h5>
+Marie Brennan<br />
+Doug Jackson & Tayeko Yamada<br />
+Nikhil & Shubhra Jain<br />
+Nobuko Yamada<br />
+
+<hr />
+
+<h2>Bay Area Vipassana Trust Contact Information</h2>
+<br />
+
+<p>
+<pre>
+Phone: 408-676-2141
+Email: <a href="mailto:info@sfbayarea.us.dhamma.org">info@sfbayarea.us.dhamma.org</a> 
+</pre>
+</p>
+
+<!--
+Use the form on this page to send email to the Center. Please choose following options 
+General information: Information about Vipassana Courses nearby
+Children Courses: Information regarding children/Teen courses
+One Day courses: Information regarding one day courses and other group sits
+Other : ANy other question or suggestion regarding website and comunications.
+
+If you would like a reply, please provide your email address in the From field.
+
+** have the form similar to one on  http://www.mahavana.dhamma.org/public/contactus.htm
+Send emails to info@sfbayarea.us.dhamma.org 
+**
+
+-->
+
+<hr />
+
+<h2>Donate to BAVC</h2>
+
+<p>If you are interested in supporting the Bay Area Vipassana Center with a donation, <a href="http://www.mahavana.dhamma.org/os/dana/contributions.htm" target="blank">donate here</a>.</p>
+<br />
+
+<p><i>At this time donations can only be earmarked for the <a href="/os/sbvh">South Bay Vipassana Hall</a> and the <a href="/os/ebvh">East Bay Vipassana Hall</a>, as well as for specific projects at the <a href="http://www.mahavana.dhamma.org/" target="blank">California Vipassana Center</a>.  Please specify while donating.</i></p>
+
+</div>
+
+<?php include("../../../footer.inc"); ?>
+

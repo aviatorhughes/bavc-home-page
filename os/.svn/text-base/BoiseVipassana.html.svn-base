@@ -1,0 +1,234 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/OldStudent1ColPage.dwt" codeOutsideHTMLIsLocked="false" -->
+<!-- DW6 -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Northwest Vipassana Center</title>
+<!-- InstanceEndEditable -->
+<link rel="stylesheet" type="text/css" href="../Includes/css/DhammaKunjaTheme.css" />
+<link rel="stylesheet" type="text/css" href="../Includes/css/mbMenuDK.css" />
+
+<!-- MENUS: See mbMenus -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
+<script type="text/javascript" src="../Includes/mbMenus/jquery.metadata.js"></script>
+<script type="text/javascript" src="../Includes/mbMenus/mbMenu.js"></script>
+<!--	<script type="text/javascript" src="mbMenus/jquery.hoverIntent.js"></script>
+-->
+
+<!-- RUN SLIDESHOWS -->
+<script type="text/javascript" src="../Includes/MiscScripts/AC_RunActiveContent.js"></script>
+<script type="text/javascript" src="../Includes/MiscScripts/AC_ActiveX.js"></script>
+
+<!-- DHAMMA KUNJA SCRIPTS -->
+<script type="text/javascript" src="../Includes/MiscScripts/DKScripts.js"></script>
+	
+<!-- THIS IS ONLY NEEDED FOR BACKGROUND PAGE IMAGE CASE -->
+<!--[if IE 6]>
+<style type="text/css">
+/* some css fixes for IE browsers */
+html {overflow-y:hidden;}
+body {overflow-y:auto;}
+#bg {position:absolute; z-index:-1;}
+#content {position:static;}
+</style>
+<![endif]-->
+<!-- InstanceBeginEditable name="head" -->
+<!-- josh's script to confirm a valid amount was entered into donation fields - modified to simply check val>0  -->
+<script type="text/javascript"> 
+function validateAmount(amount){
+//	if(amount.value.match( /^[0-9]+(\.([0-9]+))?$/)){
+	if(amount.value > 0){
+		return true;
+	}else{
+		alert('You must enter a valid quantity.');
+		amount.focus();
+		return false;
+	}
+}
+
+<!-- script from doantions.html for recurring donations - modified to remove 'fundType' code  -->
+function setupRecurringValues()
+{
+  $("input[name='shopping-cart.items.item-1.subscription.payments.subscription-payment-1.maximum-charge']").val($("#recurPrice").val());
+  $("input[name='shopping-cart.items.item-1.unit-price']").val($("#recurPrice").val());
+  return true;
+}
+</script>
+<!-- this is where to add css that is specific to only 1 page  -->
+<style type="text/css">
+#BoiseDanaList {
+	list-style-type: none;
+	list-style-position: outside;
+	position: relative;
+	top: 10px;
+	text-align: left;
+	padding-left: 15px;
+}
+</style>
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+
+<div id="siteWrapper">
+
+	<div id="siteHeaderOS" style="text-align:right">
+		&nbsp;
+	</div>
+    <div style="z-index: 999; position:relative; text-align:left; top:-25px; left:710px; width:100px; height:0">
+        <a href="http://www.facebook.com/dhammakunja" target="_new" style="padding-right:5px"><img alt="" src="../Images/facebook.png" border="0"/></a>
+        <a href="http://blog.kunja.dhamma.org/" target="_new"><img alt="" src="../Images/blog.png" border="0"/></a>
+    </div>
+
+	<div id="contentWrapper">
+
+		<!-- Main (horizontal) Menu -->
+		<div id="topMenu"> 
+			<div class="DKTopMenu">
+				<table class="rootVoices" cellspacing='0' cellpadding='0' border='0'>
+					<tr>
+						<td class="rootVoice {menu: 'menu_OldStudents'}" >Old Students</td>
+						<td class="rootVoice {menu: 'empty'}" onclick="return(DK_OpenSubPage('inSite', '../index.html'))" >NVC Home</td>
+						<td class="rootVoice {menu: 'menu_Service'}" >Service</td>
+						<td class="rootVoice {menu: 'empty'}" onclick="return(DK_OpenSubPage('inSite', 'Donations.html'))" >Donations</td>
+						<td class="rootVoice {menu: 'menu_Center'}" >Center</td>
+						<td class="rootVoice {menu: 'menu_OtherResources'}" >Resources</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	
+		
+		<!-- Page Content: 2-column layout with Left sidebar, and Right main content -->
+		<div class="colSingleWrapper">
+			<div class="contentContainer">
+	
+				<!-- mainContent = template ID for main content area of page -->
+				<div id="mainContent">
+				<!-- InstanceBeginEditable name="mainContentRegion" -->
+          <div class="contentStory spacedParas">
+<!--
+            <div class="inlineRight"><img border="0" src="../Images/SeattleVipassana.jpg" width="250px" alt="Seattle Vipassana Hall" align="middle"/></div>
+            <p>The purpose of the Seattle Vipassana Hall is to serve old students of S.N. Goenka in the Seattle Area by hosting one-hour group sittings, one-day courses, and children&rsquo;s courses. The hall will be staffed and supported by grateful old students on a volunteer basis.</p>
+            <p >The Seattle Vipassana Hall is located in a commercial office building on Westlake Avenue, overlooking Lake Union. <a href="#sched">See Schedule</a> below for upcoming group sittings and one-day courses.</p>
+          </div>
+-->          
+          <table cellpadding="0" cellspacing="0">
+			<tr>
+              <td style="padding-right:10px; vertical-align:top">
+          		<h1>Boise Vipassana Hall</h1>
+                <p>Group sittings are valuable opportunities to strengthen your practice of Vipassana.  By sitting with fellow students who are following the same technique, you can meditate more seriously and gain support, which will help you keep practicing on your own.</p>
+                <br />
+                <p>The group sittings in Boise are held weekly for one hour, with the intention of hosting longer duration sittings or one day courses.  Please see the calendar and map below for the current schedule and location.  </p>
+                <br />
+                <p>For information about 10 day courses in Idaho please visit the Vipassana Meditation in Idaho website (<a target="_blank" href="http://www.id.us.dhamma.org/">http://www.id.us.dhamma.org/</a>).</p>
+                <br />
+          		<h2>Email Updates</h2>
+                <p>To sign up to receive email updates about activities in Boise, please visit the <a href="http://www.kunja.dhamma.org/os/Subscription.html">Dhamma Ku&ntilde;ja subscription page</a>.  To send an email directly to one of the group sittting hosts: <a href="mailto:BoiseVipassana@gmail.com">Contact Us</a></p>
+                <br />
+				</td>
+            	<td style="vertical-align:top; padding-top:20px; padding-right:5px">
+					<br />
+	                <!-- dana box= -->
+                    <div id="BoiseDanaBox" class="featureBox" >
+                      <div class="wrapper" style="padding-top:0px"> <img src="../Images/FeatureBoxHeaderBG.png" border="0" style="display:block" alt=""/>
+                        <div class="content" style="text-align:center">
+                          <h3 style="padding-top: 0; text-align: center">Donate Online to<br />Idaho Vipassana Activities:</h3>
+                          <ul id="BoiseDanaList" >
+                            <li>
+                              <div style="padding-left:10px; text-align:center">
+								<!-- paypal donation button: -->
+								<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+									<input type="hidden" name="cmd" value="_s-xclick">
+									<input type="hidden" name="hosted_button_id" value="9GF4A245XMMV8">
+									<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal">
+									<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+								</form>
+                              </div>
+                            </li>                    
+                          </ul>
+                        </div>
+                        <img src="../Images/FeatureBoxFooterBG.png" border="0" alt=""/> </div>
+                    </div>
+				</td>
+			</tr>
+          </table>
+
+			<h2 style="padding-top:10px; padding-bottom:10px">Group &amp; Day Sitting Schedule:</h2>
+			<!-- Call to Google Calendar to display schedule -->
+			<div> 
+				<a name="sched"></a>
+				<iframe  width="700" scrolling="no" height="600" frameborder="0" src="https://www.google.com/calendar/embed?src=t72e9dlpuabpto7q5s9ptn4s0c%40group.calendar.google.com&ctz=America/Denver" style="border: 0"></iframe>				
+			</div>
+
+ 	        <hr />
+
+          
+			<h2 style="padding-top:30px; padding-bottom:10px">Location:</h2>
+			<p>The Boise Vipassana Hall is located at 1655 Fairview Ave, Suite 101, Boise, ID 83702.<br /> Here is a map of the area:</p><br />
+			<div>
+<!--			
+				<iframe width="700" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?msa=0&msid=200270960963057327786.0004e99322eaaf514af94&hl=en&ie=UTF8&t=h&layer=c&cbll=43.62051,-116.214187&panoid=D9M28ZsD0l7o0K9fFj9JlQ&cbp=11,142.87,,0,0&ll=43.6235,-116.213862&spn=0.002439,0.00603&z=16&source=embed&output=svembed"></iframe>
+-->
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d23106.771859487268!2d-116.21369000000001!3d43.620147!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54aef8e80939d3df%3A0xaca815b12e081891!2s1655+W+Fairview+Ave+%23101%2C+Boise%2C+ID+83702!5e0!3m2!1sen!2sus!4v1407865354244" width="600" height="450" align="middle" frameborder="0" style="border:0"></iframe>
+<!--				
+                <br />
+                <small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=1655+W.+Fairview+Ave.,+%23101,+Boise,+Idaho&amp;aq=&amp;sll=43.620147,-116.21369&amp;sspn=0.003262,0.007451&amp;gl=us&amp;ie=UTF8&amp;hq=&amp;hnear=1655+W+Fairview+Ave+%23101,+Boise,+Idaho+83702&amp;t=m&amp;z=14&amp;ll=43.620147,-116.21369" style="color:#0000FF;text-align:left" target="_blank">View Larger Map</a></small>
+-->
+			</div>          
+          <!-- InstanceEndEditable -->
+				</div>
+				<!-- END: mainContent (template) -->
+			</div>
+		</div>	
+		
+		
+		<div id="siteFooter">  
+			<div style="z-index:999">
+				<a href="#" onclick="DK_OpenEmbeddedObject('externalSite', '../docs/nvaprivacypolicy.pdf', 'Privacy Policy', '../NVAPrivacyPolicy.html');return false;">Privacy Policy</a> |
+				<a href="../ContactUs.html" target="_self">Contact Us</a>	
+            </div>
+            
+		</div>
+		
+	</div>
+</div>
+
+<div id="menu_OldStudents" class="menu">
+	<a class="{action: 'DK_OpenSubPage(\'inSite\', \'index.html\')'}">Old Students Home</a>
+	<a class="{action: 'DK_OpenEmbeddedObject(\'externalSite\', \'http://www.dhamma.org/en/os/osguide.htm\', \'Guidelines for Practice\', \'GuidelinesForPractice.html\')'}">Guidelines for Practice</a>
+	<a class="{action: 'DK_OpenEmbeddedObject(\'externalSite\', \'docs/NVC_OS_InfoSheet.pdf\', \'Old Student Info\', \'OSInfoSheet.html\')'}">NVC Old Student Info.</a>
+	<a class="{action: 'DK_OpenSubPage(\'inSite\', \'GroupSittings.html\')'}">Group Sittings</a>
+	<a class="{action: 'DK_OpenSubPage(\'inSite\', \'DaySittings.html\')'}">One-day Courses</a>
+	<a class="{action: 'DK_OpenSubPage(\'inSite\', \'OldStudentWeekend.html\')'}">Old Student Service Weekends</a>
+	<a class="{action: 'DK_OpenSubPage(\'inSite\', \'Subscription.html\')'}">Dhamma Ku&ntilde;ja Mailing List</a>
+</div>
+
+<div id="menu_Service" class="menu">
+	<a class="{action: 'DK_OpenSubPage(\'inSite\', \'DhammaService.html\')'}">General Information</a>
+	<a class="{action: 'DK_OpenSubPage(\'inSite\', \'OldStudentWeekend.html\')'}">Old Student Service Weekends</a>
+	<a class="{action: 'DK_OpenSubPage(\'externalSite\', \'https://form.server.dhamma.org/cgi-bin/pforms/1.2/form/interest?venue=kunja&lang=en\')'}">Service Interest Form</a>
+</div>
+
+<div id="menu_Center" class="menu">
+	<a class="{action: 'DK_OpenSubPage(\'inSite\', \'CenterDevelopment.html\')'}">Center Development</a>
+	<a class="{action: 'DK_OpenSubPage(\'inSite\', \'Finances.html\')'}">Financial Information</a>
+	<a class="{action: 'DK_OpenSubPage(\'inSite\', \'OSPhotoGallery.html\')'}">Photo Gallery</a>
+	<a class="{action: 'DK_OpenSubPage(\'inSite\', \'NVCMenus.html\')'}">Course Menus</a>
+</div>
+
+<div id="menu_OtherResources" class="menu">
+	<a class="{action: 'DK_OpenSubPage(\'inSite\', \'NVANewsletters.html\')'}">NVC Newsletter</a>
+	<a class="{action: 'DK_OpenSubPage(\'externalSite\', \'http://news.dhamma.org\')'}">International Newsletter</a>
+	<a class="{action: 'DK_OpenSubPage(\'externalSite\', \'http://www.dhamma.org\')'}">International Website</a>
+	<a class="{action: 'DK_OpenSubPage(\'externalSite\', \'http://www.pariyatti.org\')'}">Pariyatti Books</a>
+	<a class="{action: 'DK_OpenSubPage(\'externalSite\', \'http://www.vri.dhamma.org\')'}">Vipassana Research</a>
+	<!-- TGS - removed menu items per request of Kyle Lindvall 1/3/2013
+	<a class="{action: 'DK_OpenSubPage(\'externalSite\', \'../trust\')'}">NVA Trust Member Files</a>
+	<a class="{action: 'DK_OpenSubPage(\'externalSite\', \'../committees\')'}">NVA Committee Files</a>
+	-->
+</div>
+
+</body>
+<!-- InstanceEnd --></html>

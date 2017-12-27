@@ -1,0 +1,58 @@
+<?php include("../../header.inc"); ?>
+
+<div class="contentStory" style="padding-top: 15px">
+<h2>Group Sittings and Events</h2>
+<br />
+
+<h3>Group Sittings</h3>
+<br />
+<p><u>Group Sittings</u> are valuable opportunities to strengthen your practice of Vipassana. By sitting with fellow students who are following the same technique, you can meditate more seriously and gain support, which will help you keep practicing on your own.</p>
+<br />
+
+<h5>Group Sit Resources</h5>
+<a href="http://www.mahavana.dhamma.org/os/groupsit/index.htm#northern" target="_blank">California Group Sits</a> <span style="font-size: 8pt">(includes San Francisco, Berkeley, Santa Cruz and Sunnyvale areas)</span><br />
+<a href="http://www.mahavana.dhamma.org/os/groupsit/guidelines.htm" target="_blank">Guidelines for Hosting Group Sits</a><br />
+<a href="http://www.mahavana.dhamma.org/os/groupsit/faq.htm" target="_blank">Group Sittings FAQs</a><br />
+<a href="http://www2.dhamma.org/en/os/osguide.htm" target="_blank">Guidelines for Practice</a><br />
+
+<hr />
+
+<h3>One-Day Courses</h3>
+<br />
+
+<p><u>One-Day Courses</u> are a wonderful opportunity to refresh and strengthen your practice, or to give Dhamma service. One-day sittings at the Bay Area halls are often conducted by an assistant teacher, who is available for questions during noon interviews. You may bring your own meditation cushions, or borrow some from the center.</p>
+<br />
+
+<p>Visit these pages to find One-Day courses in the area:</p>
+<br />
+
+<p>
+<a href="/os/ebvh">East Bay Vipassana Hall</a><br />
+<a href="/os/sbvh">South Bay Vipassana Hall</a><br />
+</p>
+<br />
+
+<p>The calendar below includes information on group sittings, one-day courses, as well as other events such as trust meetings.  All old students are welcome to attend any event listed.</p>
+<br />
+
+<p><span style="color: green; font-weight: bold;">PUT CALENDAR HERE</span></p>
+
+<hr />
+
+<h2>Special Events</h2>
+<br />
+
+<p>Special talks and other events are shometimes given at local halls for the benefit of old students.  Please read here or the <a href="/os/ebvh">EBVH</a> or <a href="/os/sbvh">SBVH</a> for more information.</p>
+<br />
+
+<p>For more information, please contact <a href="mailto:info@sfbayarea.dhamma.us.org">info@sfbayarea.dhamma.us.org</a>.</p>
+<br />
+
+<hr />
+
+
+
+</div>
+
+<?php include("../../footer.inc"); ?>
+

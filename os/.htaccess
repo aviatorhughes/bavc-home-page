@@ -1,0 +1,4 @@
+AuthUserFile /home/webhost1_owner/standard-passwords
+AuthName "Old Student Pages"
+AuthTYpe Basic 
+require user oldstudent trustee dhammaworker

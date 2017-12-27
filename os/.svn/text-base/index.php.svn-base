@@ -1,0 +1,52 @@
+<?php include("../header.inc"); ?>
+
+<div class="contentStory" style="padding-top: 15px">
+
+<h2>Bay Area Vipassana Trust</h2>
+<br />
+
+<p>Welcome to the Bay Area Vipassana Trust website for old students of Vipassana Meditation in the tradition of Sayagyi U Ba Khin as taught by S.N. Goenka and his assistant teachers. This website is intended to provide you with practical information to support your meditation practice, articles of inspiration, and information about Bay Area dhamma activities, including Dhamma service opportunities. You can also find a schedule of upcoming group sittings, events, and news about the latest developments in the Bay Area.</p>
+
+<hr />
+
+<h2>Staying in Touch with Bay Area Vipassana</h2>
+<br />
+
+<!--
+Sign up to receive email updates about activities in the bay area, announcements of gatherings and spontaneous same-day group sittings, and other Vipassana events in the bay area, at http://www.sfbayarea.us.dhamma.org/os/Subscription.html
+Join us on Facebook at https://www.facebook.com/bavc(? this needs to be set up)
+-->
+
+<p>Questions about the Bay Area Vipassana can be sent to:<br />
+<br />
+<a href="info@sfbayarea.us.dhamma.org">info@sfbayarea.us.dhamma.org</a>
+</p>
+
+<hr />
+
+<h2>Donate to BAVC</h2>
+<br />
+
+<!--
+If you are interested in supporting the Bay Area Vipassana activities with a tax-deductible donation, please select an option from the sidebar to the right. Or, if you prefer, you can use online banking or mail a check payable to Bay Area Vipassana Center to the following address: 
+Donate Online to
+Bay Area Vipassana Center:
+-->
+
+<p>Questions about sending donations to the Bay Area Vipassana Trust can be sent to:<br />
+<br />
+<a href="treasurer@sfbayarea.us.dhamma.org">treasurer@sfbayarea.us.dhamma.org</a>
+</p>
+
+
+
+
+
+
+
+
+
+</div>
+
+<?php include("../footer.inc"); ?>
+

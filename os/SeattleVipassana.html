@@ -1,0 +1,244 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/OldStudent1ColPage.dwt" codeOutsideHTMLIsLocked="false" -->
+<!-- DW6 -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Northwest Vipassana Center</title>
+<!-- InstanceEndEditable -->
+<link rel="stylesheet" type="text/css" href="../Includes/css/DhammaKunjaTheme.css" />
+<link rel="stylesheet" type="text/css" href="../Includes/css/mbMenuDK.css" />
+
+<!-- MENUS: See mbMenus -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
+<script type="text/javascript" src="../Includes/mbMenus/jquery.metadata.js"></script>
+<script type="text/javascript" src="../Includes/mbMenus/mbMenu.js"></script>
+<!--	<script type="text/javascript" src="mbMenus/jquery.hoverIntent.js"></script>
+-->
+
+<!-- RUN SLIDESHOWS -->
+<script type="text/javascript" src="../Includes/MiscScripts/AC_RunActiveContent.js"></script>
+<script type="text/javascript" src="../Includes/MiscScripts/AC_ActiveX.js"></script>
+
+<!-- DHAMMA KUNJA SCRIPTS -->
+<script type="text/javascript" src="../Includes/MiscScripts/DKScripts.js"></script>
+	
+<!-- THIS IS ONLY NEEDED FOR BACKGROUND PAGE IMAGE CASE -->
+<!--[if IE 6]>
+<style type="text/css">
+/* some css fixes for IE browsers */
+html {overflow-y:hidden;}
+body {overflow-y:auto;}
+#bg {position:absolute; z-index:-1;}
+#content {position:static;}
+</style>
+<![endif]-->
+<!-- InstanceBeginEditable name="head" -->
+<!-- josh's script to confirm a valid amount was entered into donation fields - modified to simply check val>0  -->
+<script type="text/javascript"> 
+function validateAmount(amount){
+//	if(amount.value.match( /^[0-9]+(\.([0-9]+))?$/)){
+	if(amount.value > 0){
+		return true;
+	}else{
+		alert('You must enter a valid quantity.');
+		amount.focus();
+		return false;
+	}
+}
+
+<!-- script from doantions.html for recurring donations - modified to remove 'fundType' code  -->
+function setupRecurringValues()
+{
+  $("input[name='shopping-cart.items.item-1.subscription.payments.subscription-payment-1.maximum-charge']").val($("#recurPrice").val());
+  $("input[name='shopping-cart.items.item-1.unit-price']").val($("#recurPrice").val());
+  return true;
+}
+</script>
+
+<!-- this is where to add css that is specific to only 1 page  -->
+<style type="text/css">
+#SVHdanaList {
+	list-style-type: none;
+	list-style-position: outside;
+	position: relative;
+	top: 10px;
+	text-align: left;
+	padding-left: 15px;
+}
+</style>
+
+<!-- Galleria scripts -->
+<script src="../Includes/galleria/galleria-1.2.6.min.js"></script>
+
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+
+<div id="siteWrapper">
+
+	<div id="siteHeaderOS" style="text-align:right">
+		&nbsp;
+	</div>
+    <div style="z-index: 999; position:relative; text-align:left; top:-25px; left:710px; width:100px; height:0">
+        <a href="http://www.facebook.com/dhammakunja" target="_new" style="padding-right:5px"><img alt="" src="../Images/facebook.png" border="0"/></a>
+        <a href="http://blog.kunja.dhamma.org/" target="_new"><img alt="" src="../Images/blog.png" border="0"/></a>
+    </div>
+
+	<div id="contentWrapper">
+
+		<!-- Main (horizontal) Menu -->
+		<div id="topMenu"> 
+			<div class="DKTopMenu">
+				<table class="rootVoices" cellspacing='0' cellpadding='0' border='0'>
+					<tr>
+						<td class="rootVoice {menu: 'menu_OldStudents'}" >Old Students</td>
+						<td class="rootVoice {menu: 'empty'}" onclick="return(DK_OpenSubPage('inSite', '../index.html'))" >NVC Home</td>
+						<td class="rootVoice {menu: 'menu_Service'}" >Service</td>
+						<td class="rootVoice {menu: 'empty'}" onclick="return(DK_OpenSubPage('inSite', 'Donations.html'))" >Donations</td>
+						<td class="rootVoice {menu: 'menu_Center'}" >Center</td>
+						<td class="rootVoice {menu: 'menu_OtherResources'}" >Resources</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	
+		
+		<!-- Page Content: 2-column layout with Left sidebar, and Right main content -->
+		<div class="colSingleWrapper">
+			<div class="contentContainer">
+	
+				<!-- mainContent = template ID for main content area of page -->
+				<div id="mainContent">
+				<!-- InstanceBeginEditable name="mainContentRegion" -->
+			<h1>Seattle Vipassana Hall</h1>
+			<div class="contentStory spacedParas">
+				<div class="inlineRight"><img border="0" src="../Images/SVH/SeattleVipassana.jpg" width="250px" alt="Seattle Vipassana Hall" align="middle"/></div> 
+					<p>The Seattle Vipassana Hall serves the old students of S.N. Goenka in the Seattle area by providing opportunities for individual drop-in meditation, scheduled group sittings, one-day courses, youth courses, Vipassana outreach events, and trust and committee meetings. The hall is under the direction  of the NW Vipassana Center (Dhamma Ku&ntilde;ja), and is staffed and supported by grateful old students on a volunteer basis.</p>
+					<p>All meditation events are only for old students. Old students are those who have completed a 10-day Vipassana course with S.N. Goenka or his assistant teachers.</p>
+				</div>
+                <br />
+				<!-- schedule -->
+        	   	<h2>Schedule of Group Sittings &amp; One-Day Courses </h2>
+                <p class="bottomPad">For additional information on One-Day Courses <a href="SeattleVipassana.OneDay.html">please see here</a>.</p>
+				<div> 
+					<a name="sched"></a>
+					<iframe src="http://www.google.com/calendar/embed?src=krsnow.com_t92jg9dn6cm060v951p8p1iobs%40group.calendar.google.com&ctz=America/Los_Angeles&showTitle=0&color=%232952A3&bgcolor=%23FFFFFF" style="border: 0" width="700" height="600" frameborder="0" scrolling="no"></iframe>							
+				</div>
+				<!-- contact -->
+    	        <hr />
+				<h2>Staying in Touch with Seattle Vipassana</h2>
+				<div class="spacedParas">
+					<p>Sign up to receive email updates about activities at SVH, announcements of spontaneous same-day group sittings (known as "flash sits"), and other Vipassana events in the Seattle area, at <a href="http://www.kunja.dhamma.org/os/Subscription.html">http://www.kunja.dhamma.org/os/Subscription.html</a><p>
+					<p>Join us on Facebook at <a href="https://www.facebook.com/dhammakunja">https://www.facebook.com/dhammakunja</a></p>
+					<p>Questions about the Seattle Vipassana Hall can be sent to <a href="mailto:info-seattle@kunja.dhamma.org">info-seattle@kunja.dhamma.org</a></p>
+				</div>
+				<!-- donate -->
+    	        <hr />
+				<table cellpadding="0" cellspacing="0">
+				<tr>
+					<td style="vertical-align:top; padding-right:20px">
+        	        	<h2>Donate to SVH</h2>
+            	    	<p>Rent and other expenses for the Seattle Vipassana Hall total about $1,375 per month. If you are interested in supporting the Seattle Vipassana Hall with a tax-deductible donation, please select an option from the sidebar to the right. Or, if you prefer, you can use online banking or mail a check payable to <i>Northwest Vipassana Association</i> to the following address:</p>
+                		<p style="padding: 5px 0 5px 150px;">Seattle Vipassana Hall<br />
+                  											1800 Westlake Ave. N., Suite 301<br />
+                  											Seattle, WA 98109</p>
+					</td>
+                    <td style="vertical-align:top; padding-top:40px"><!-- dana box= -->
+						<div id="SVHDanaBox" class="featureBox" >
+							<div class="wrapper" > <img src="../Images/FeatureBoxHeaderBG.png" border="0" style="display:block" alt=""/>
+								<div class="content" style="text-align:center">
+									<h3 style="padding: 0 0 10px 0; text-align: center">Donate Online to<br />Seattle Vipassana Hall:</h3>
+									<!-- paypal donation code: -->
+									<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+									<input type="hidden" name="cmd" value="_s-xclick">
+									<input type="hidden" name="hosted_button_id" value="AKCGXDULY8XAW">
+									<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+									<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+									</form>
+								</div>
+								<img src="../Images/FeatureBoxFooterBG.png" border="0" alt=""/> 
+	                        </div>
+						</div>
+					</td></tr>
+					<tr><td colspan="2">If you have further questions please contact <a href="mailto:treasurer@kunja.dhamma.org">treasurer@kunja.dhamma.org</a></td></tr>
+				</table>
+				
+				<!-- directions -->
+    	        <hr />
+                <h2>Driving Directions and Site Details</h2>
+				<p>The Seattle Vipassana Hall is located at 1800 Westlake Ave. N., Suite 301, Seattle, WA 98109, in a commercial building overlooking Lake Union.  Map and directions <a href="http://mapq.st/kC69xp" target="_blank">http://mapq.st/kC69xp</a>. There is plenty of free parking on evenings and weekends. Bicycle parking is available only at the bike rack in front of the building just north of the Vipassana Hall. Metro Transit provides service to Westlake Ave. N., please check <a href="http://metro.kingcounty.gov/" target="_blank">their website</a> for updated route information. On Saturdays and Sundays, the building can only be entered through the North end door, at street level.  The Seattle Vipassana Hall is upstairs, in Suite 301.</p>
+				
+				<!-- gallery -->
+				<br />
+				<div class="spacedParas">
+					<p style="padding-top:10px; font-size:smaller; font-style:italic">Images from the Seattle Vipassana Hall:</p>
+					<div id="gallery">
+						<img src="../Images/SVH/SVHinterior.jpg">
+						<img src="../Images/SVH/SVHinterior_new1.jpg">
+						<img src="../Images/SVH/SVHinterior_new2.jpg">
+						<img src="../Images/SVH/interior1.jpg">
+						<img src="../Images/SVH/interior4.jpg">
+					</div>
+					<script>
+						Galleria.loadTheme('../Includes/galleria/themes/classic/galleria.classic.min.js');
+						$("#gallery").galleria({width: 700, height: 525, transition: 'fade'});
+					</script>
+				</div>
+				
+          <!-- InstanceEndEditable -->
+				</div>
+				<!-- END: mainContent (template) -->
+			</div>
+		</div>	
+		
+		
+		<div id="siteFooter">  
+			<div style="z-index:999">
+				<a href="#" onclick="DK_OpenEmbeddedObject('externalSite', '../docs/nvaprivacypolicy.pdf', 'Privacy Policy', '../NVAPrivacyPolicy.html');return false;">Privacy Policy</a> |
+				<a href="../ContactUs.html" target="_self">Contact Us</a>	
+            </div>
+            
+		</div>
+		
+	</div>
+</div>
+
+<div id="menu_OldStudents" class="menu">
+	<a class="{action: 'DK_OpenSubPage(\'inSite\', \'index.html\')'}">Old Students Home</a>
+	<a class="{action: 'DK_OpenEmbeddedObject(\'externalSite\', \'http://www.dhamma.org/en/os/osguide.htm\', \'Guidelines for Practice\', \'GuidelinesForPractice.html\')'}">Guidelines for Practice</a>
+	<a class="{action: 'DK_OpenEmbeddedObject(\'externalSite\', \'docs/NVC_OS_InfoSheet.pdf\', \'Old Student Info\', \'OSInfoSheet.html\')'}">NVC Old Student Info.</a>
+	<a class="{action: 'DK_OpenSubPage(\'inSite\', \'GroupSittings.html\')'}">Group Sittings</a>
+	<a class="{action: 'DK_OpenSubPage(\'inSite\', \'DaySittings.html\')'}">One-day Courses</a>
+	<a class="{action: 'DK_OpenSubPage(\'inSite\', \'OldStudentWeekend.html\')'}">Old Student Service Weekends</a>
+	<a class="{action: 'DK_OpenSubPage(\'inSite\', \'Subscription.html\')'}">Dhamma Ku&ntilde;ja Mailing List</a>
+</div>
+
+<div id="menu_Service" class="menu">
+	<a class="{action: 'DK_OpenSubPage(\'inSite\', \'DhammaService.html\')'}">General Information</a>
+	<a class="{action: 'DK_OpenSubPage(\'inSite\', \'OldStudentWeekend.html\')'}">Old Student Service Weekends</a>
+	<a class="{action: 'DK_OpenSubPage(\'externalSite\', \'https://form.server.dhamma.org/cgi-bin/pforms/1.2/form/interest?venue=kunja&lang=en\')'}">Service Interest Form</a>
+</div>
+
+<div id="menu_Center" class="menu">
+	<a class="{action: 'DK_OpenSubPage(\'inSite\', \'CenterDevelopment.html\')'}">Center Development</a>
+	<a class="{action: 'DK_OpenSubPage(\'inSite\', \'Finances.html\')'}">Financial Information</a>
+	<a class="{action: 'DK_OpenSubPage(\'inSite\', \'OSPhotoGallery.html\')'}">Photo Gallery</a>
+	<a class="{action: 'DK_OpenSubPage(\'inSite\', \'NVCMenus.html\')'}">Course Menus</a>
+</div>
+
+<div id="menu_OtherResources" class="menu">
+	<a class="{action: 'DK_OpenSubPage(\'inSite\', \'NVANewsletters.html\')'}">NVC Newsletter</a>
+	<a class="{action: 'DK_OpenSubPage(\'externalSite\', \'http://news.dhamma.org\')'}">International Newsletter</a>
+	<a class="{action: 'DK_OpenSubPage(\'externalSite\', \'http://www.dhamma.org\')'}">International Website</a>
+	<a class="{action: 'DK_OpenSubPage(\'externalSite\', \'http://www.pariyatti.org\')'}">Pariyatti Books</a>
+	<a class="{action: 'DK_OpenSubPage(\'externalSite\', \'http://www.vri.dhamma.org\')'}">Vipassana Research</a>
+	<!-- TGS - removed menu items per request of Kyle Lindvall 1/3/2013
+	<a class="{action: 'DK_OpenSubPage(\'externalSite\', \'../trust\')'}">NVA Trust Member Files</a>
+	<a class="{action: 'DK_OpenSubPage(\'externalSite\', \'../committees\')'}">NVA Committee Files</a>
+	-->
+</div>
+
+</body>
+<!-- InstanceEnd --></html>

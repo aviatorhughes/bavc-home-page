@@ -1,0 +1,135 @@
+<?php include("../../header.inc"); ?>
+
+<div class="contentStory" style="padding-top: 15px">
+<h2>East Bay Vipassana Hall</h2>
+
+<br />
+
+<div style="text-align: center;" id="n4um">
+  <img width="516" height="217" src="EBVH.jpg" alt="East Bay Vipassana Hall">
+</div>
+
+<br />
+
+<p>The East Bay Vipassana Hall serves the <b>old students</b> of S. N. Goenka in the Bay Area by hosting one-hour sittings, three-hour sittings, one-day courses, and children's courses. The hall is staffed and supported by grateful old students on a volunteer basis.</p>
+<br />
+<p>All meditation events are only for <u>old students</u>. Old students are those who have completed a 10-day Vipassana Meditation course with S.N. Goenka or his assistant teachers.</p>
+
+<hr />
+
+<h2>Schedule</h2>
+<table style="width: 100%; padding: 1px; border-spacing: 5px; border-collapse: separate;">
+  <tbody>
+    <tr class="tablehdbg">
+      <th>Day</th>
+      <th>Time</th>
+      <th>Activity</th>
+		</tr>
+		<tr class="tablerowtext">
+      <td style="vertical-align: top; width: 150px">Every Weekday Morning</td>
+      <td style="vertical-align: top; width: 150px">7:00am - 8:00am</td>
+      <td style="vertical-align: top;"><a href="#group_sittings">Group Sitting</a></p></td>
+    </tr>
+    <tr class="tablerowtext">
+      <td style="vertical-align: top; width: 150px">Monday thru Thursday, Sunday</td>
+      <td style="vertical-align: top; width: 150px">7:00pm - 8:00pm</td>
+      <td style="vertical-align: top;"><a href="#group_sittings">Group Sitting</a></p></td>
+    </tr>
+    <tr class="tablerowtext">
+      <td style="vertical-align: top; width: 150px height: 22px">2nd Sunday &amp; 4th Saturday of every month</td>
+      <td style="vertical-align: top; width: 150px height: 22px">9:00am - 4:00pm</td>
+      <td style="vertical-align: top; height: 22px"><a href="http://www.mahavana.dhamma.org/public/courses/oneday/course-desc.htm">1-Day course</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<br />
+
+<p><b>Note:</b> Depending on the availability of an assistant teacher we schedule additional 1-Day courses so check the <a href="#schedule">daily schedule</a> on this page from time to time.</p>
+<br />
+<p>To see the timetable for a 1-Day course, please visit the <a href="http://www.mahavana.dhamma.org/public/courses/oneday/course-desc.htm">One-Day Old Student Vipassana Meditation Course</a> page on the California Vipassana Center website.</p>
+<br />
+<p>There is an opt-in email list which is used for announcing group sittings and other programs at SBVH. You can join the email list by sending a blank email to <a href="mailto:announce-east-bay-subscribe@mahavana.dhamma.org">announce-east-bay-subscribe@mahavana.dhamma.org</a>. Typically you will receive one email every week telling you about 1-Day courses and 3-Hour sittings.</p>
+
+<hr />
+
+<h2>Daily Schedule</h2>			
+<br />
+
+<a name="schedule"></a>
+
+<!-- Google Calendar -->
+<iframe
+src="https://www.google.com/calendar/embed?title=EBVH%20Schedule&amp;showPrint=0&amp;showCalendars=0&amp;mode=WEEK&amp;height=400&amp;wkst=2&amp;bgcolor=%23ffcc66&amp;src=eastbayvipassanahall%40gmail.com&amp;color=%232952A3&amp;ctz=America%2FLos_Angeles" style=" border-width:0" scrolling="no" frameborder="0" height="400" width="740"></iframe>
+
+<br />
+
+<div>
+<p><span style="font-size: 8pt;">* AT-led 1-Day course</span></p>
+</div>
+
+<a name="group_sittings"></a>
+<p><b>Group sittings</b> provide valuable opportunities to strengthen your practice of Vipassana by sitting with fellow students. These group sittings and 1-Day courses are open to  those students who have completed at least one 10-Day course with S.N. Goenka or one of his assistant teachers.</p>
+<br />
+<p><b>Trust meeting</b> sessions includes an AT-led group sitting (9:00am - 10:00am) followed by a 2-hour CVC Trust meeting. All old students are <a href="http://www.mahavana.dhamma.org/os/trust/trust_sched.htm">welcome</a> to attend the group sitting and/or trust meeting.</p>
+
+<hr />
+
+<h2>Directions & Rideshare Information</h2>
+<br />
+<p>The East Bay Vipassana Hall is located at:</p>
+<br />
+<p>
+<pre>
+2560 9th Street
+Suite 123A
+Berkeley, CA 94710
+</pre>
+</p>
+<br />
+<p>For more information, contact us via phone at (510) 224-5070.</p>
+<br />
+
+<p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12600.180595303842!2d-122.291731!3d37.859234!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80857eed8f3390a9%3A0x68c61a5b45b6b6f8!2s2560+9th+St%2C+Berkeley%2C+CA+94710!5e0!3m2!1sen!2sus!4v1415657905119" width="400" height="300" frameborder="0" style="border:0"></iframe>
+<p>
+<br />
+
+<p>The entrance to EBVH is 50 feet south (towards Parker St.) of the main entrance for the building.</p>
+<br />
+
+<p>
+  <img src="ebvh_entrance.png" height="244" width="444">
+</p>
+<br />
+
+<p>The East Bay Vipassana Hall is approximately one mile from the Ashby exit off Highway 80, and is also accessible by public transportation. For directions on how to take the 49 AC Transit bus from the Ashby BART station, see the map below:</p>
+<br />
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m25!1m8!1m3!1d25199.40614413271!2d-122.2976688!3d37.8620273!3m2!1i1024!2i768!4f13.1!4m14!1i0!3e6!4m5!1s0x80857e7e921bc9ff%3A0x6e9db1d498dda90f!2sAshby+BART+Station%2C+3100+Adeline+St%2C+Berkeley%2C+CA+94703!3m2!1d37.852756!2d-122.269815!4m5!1s0x80857eed8f3390a9%3A0x68c61a5b45b6b6f8!2s2560+9th+St%2C+Berkeley%2C+CA+94710!3m2!1d37.8592337!2d-122.2917313!5e0!3m2!1sen!2sus!4v1415658324367" width="400" height="300" frameborder="0" style="border:0"></iframe>
+<br />
+<br />
+
+<p>Additionally, 9th Street is a Bike Boulevard and there are ample bike lock structures in front of the hall.</p> 
+<br />
+
+<p>Car parking is not metered, does not require a permit during the day and can be easily found particularly in the mornings, evenings, and on weekends.</p>
+
+<hr />
+
+<h2>Service &amp; Dana Opportunities</h2>
+
+<p>If you are interested in supporting the South Bay Vipassana Hall with a donation, donate here.</p>
+<p>There are several ways in which you can give service to help run the South Bay Vipassana Hall. Please email us and provide your contact information.</p>
+<br />
+<p>We appreciate your <a href="http://www.mahavana.dhamma.org/os/news/feedback/SBVH-feedback.htm">feedback</a> on improving SBVH to better serve students.</p>
+
+<!--
+<p>
+<a href="http://www.mahavana.dhamma.org/public/courses/oneday/course-desc.htm">Go to One-Day Course Info Page</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.dhamma.org/en/schedules/schmahavana.shtml">Go to CVC Schedule Info Page</a></p>
+-->
+
+</div>
+
+<?php include("../../footer.inc"); ?>
+

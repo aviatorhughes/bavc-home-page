@@ -1,0 +1,31 @@
+<?php include("../../header.inc"); ?>
+
+<div class="contentStory" style="padding-top: 15px">
+
+<h2>Dāna - The Parami of Generosity</h2>
+<br />
+
+<p><img src="../../Images/DhammaSvcWheelbarrow.jpg"></img></p>
+<br />
+
+<p><b>According to the tradition of pure Dhamma</b>, courses are run solely on a donation basis. Donations are accepted only from old students, that is, those who have completed at least one course with S. N. Goenka or one of his assistant teachers.  Donations may be received only from people who have realized for themselves the benefits of Dhamma. Then, giving a donation becomes a part of the practice. Being an old student you may wish to share with others the benefits that you have received from Dhamma. Even a very small donation can reflect the proper understanding of wishing to give at least something for someone else. This understanding deepens when one realizes that not only is it important to give a donation, but it should be in line with one's capacity to give. This capacity will naturally be different for each person, but the wish to help others should be the same.</p>
+<br />
+
+<p><img src="../../Images/KitchenService.small.jpg"></img></p>
+<br />
+
+<p>These donations are the only source of funding for courses in this tradition around the world. There is no wealthy foundation or individual sponsoring them. Neither the teachers nor the organizers receive any kind of payment for their service. Thus, the spread of Dhamma is carried out with purity of purpose, free from any commercialism.</p>
+<br />
+
+<p>Therefore, whether your donation be large or small, let it be with the pure volition: <b><i><q>Because someone else has donated, I have been able to learn Dhamma to purify my mind. I would like others to continue to have the same opportunity.  Therefore, let me give something for the benefit of others, according to my means.</q></i></b></p>
+<br />
+
+<p>If you are interested in supporting the Bay Area Vipassana Center with a donation, <a href="http://www.mahavana.dhamma.org/os/dana/contributions.htm" target="blank">donate here</a>.</p>
+<br />
+
+<p><i>At this time donations can only be earmarked for the <a href="/os/sbvh">South Bay Vipassana Hall</a> and the <a href="/os/ebvh">East Bay Vipassana Hall</a>, as well as for specific projects at the <a href="http://www.mahavana.dhamma.org/" target="blank">California Vipassana Center</a>.  Please specify while donating.</i></p>
+
+</div>
+
+<?php include("../../footer.inc"); ?>
+
