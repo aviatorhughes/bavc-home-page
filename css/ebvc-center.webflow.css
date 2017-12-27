@@ -72,8 +72,6 @@ a {
 }
 
 .video-divider {
-  margin-top: 30px;
-  margin-bottom: 40px;
   padding-top: 40px;
   padding-bottom: 40px;
   background-color: #050505;
@@ -1179,7 +1177,6 @@ a {
 
 @media (max-width: 767px) {
   .video-divider {
-    margin-top: 30px;
     padding-top: 30px;
     padding-bottom: 30px;
   }
